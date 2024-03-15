@@ -3,8 +3,13 @@
   flex-direction: column;
   align-items: center;
 }
+
+.create_form{
+  padding-bottom: 20px;
+}
+
 .create_form input{
-  width: 300px;
+  width: 285px;
   padding: 10px;
   border-bottom: 2px solid;
   outline: none;
@@ -13,5 +18,35 @@
   padding: 10px;
   background-color: black;
   color: white;
+  cursor: pointer;
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 2px;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+
+.checkbox .icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.task div span{
+  margin: 0px 5px 0px 4px;
+}
+
+.task div .icon{
   cursor: pointer;
 }
