@@ -38,6 +38,10 @@
   align-items: center;
 }
 
+.line_through{
+  text-decoration: line-through;
+}
+
 .checkbox .icon{
   margin-right: 5px;
   font-size: 15px;
