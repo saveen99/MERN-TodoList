@@ -1,4 +1,4 @@
-# ToDoList
+# ToDoList MERN-Stack
 
 ![Main Screenshot](.readme/1.png)
 
